@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 .hero {
   position: relative;
 }
@@ -69,6 +70,33 @@
   right: 10%;
   width: 510px;
 }
+
+.icons{
+  display:inline-block;
+  font-size: 44px;
+  animation: float 5s ease-in-out infinite;
+}
+.icons1{
+  animation-delay: 1s;
+}
+
+.icons2{
+  animation-delay: 2s;
+}
+
+@keyframes float{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-25px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
 @media (max-width: 768px) {
   .hero .right,
   .hero .left {
