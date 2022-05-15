@@ -1,8 +1,9 @@
 .features .box {
-  padding: 50px;
+  padding: 25px;
 }
 .features .box h2 {
   margin: 20px 0 20px 0;
+ 
 }
 .features .box p {
   word-spacing: 2px;
@@ -20,4 +21,13 @@
 .features .box:hover i {
   color: white;
   opacity: 1;
+}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .features .box {
+    flex-direction: column;
+    margin-left: 5px;
+  }
 }
