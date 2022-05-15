@@ -1,5 +1,5 @@
 .features .box {
-  padding: 25px;
+  padding: 50px;
 }
 .features .box h2 {
   margin: 20px 0 20px 0;
@@ -25,9 +25,9 @@
 
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
+@media (max-width: 778px) {
   .features .box {
     flex-direction: column;
-    margin-left: 5px;
+    padding: 10px;
   }
 }
