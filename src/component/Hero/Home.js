@@ -1,5 +1,6 @@
 import React from "react"
 import "./Home.css"
+import "./back.css"
 import hero from "../pic/hero.png"
 import { Typewriter } from "react-simple-typewriter"
 
@@ -12,6 +13,12 @@ const Home = () => {
     <>
       <section className='hero' id='home'>
         <div className='container f_flex top'>
+          <div class="cube"></div>
+          <div class="cube"></div>
+          <div class="cube"></div>
+          <div class="cube"></div>
+          <div class="cube"></div>
+          <div class="cube"></div>
           <div className='left top'>
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
@@ -29,10 +36,10 @@ const Home = () => {
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>BEST SKILL ON</h4>
-               
+
                 <img className="icons" src="https://img.icons8.com/nolan/96/react-native.png"></img>
-                <img className="icons icons1" src="https://img.icons8.com/nolan/96/javascript.png"/>
-                <img className="icons icons2" src="https://img.icons8.com/nolan/96/html.png"/>
+                <img className="icons icons1" src="https://img.icons8.com/nolan/96/javascript.png" />
+                <img className="icons icons2" src="https://img.icons8.com/nolan/96/html.png" />
               </div>
             </div>
           </div>
