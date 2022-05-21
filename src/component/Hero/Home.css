@@ -143,6 +143,7 @@
 
   .hero .right_img img {
     position: absolute;
+   
     margin-left: -100px;
     margin-top: -23.5%;
     width: 260px;
