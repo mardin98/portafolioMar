@@ -46,7 +46,7 @@ const Header = () => {
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
-              {Mobile ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}
+              {Mobile ? <img className="close home-btn" src="https://img.icons8.com/nolan/44/delete-sign.png"/> : <img className="open" src="https://img.icons8.com/nolan/54/menu-squared-2.png"/>}
             </button>
           </div>
         </div>

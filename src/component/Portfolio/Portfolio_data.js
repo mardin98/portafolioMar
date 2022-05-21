@@ -5,7 +5,7 @@ const Portfolio_data = [
     category: "DEVELOPMENT",
     totalLike: "600",
     title: "The services provide for design ",
-    image: "https://drive.google.com/file/d/1-B-nYjofDG2vIk6cwda9HBxEdWQYBBfd/view?usp=sharing",
+    image: "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
     
   },
   {
@@ -13,7 +13,7 @@ const Portfolio_data = [
     category: "APPLICATION",
     totalLike: "750",
     title: "Mobile app landing design & maintain",
-    image: "./image/portfolio-02.jpg",
+    image: "./pic/hero.png",
   },
   {
     id: 3,
