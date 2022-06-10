@@ -1,6 +1,7 @@
 header {
   height: 10vh;
   line-height: 10vh;
+  
 }
 header .container {
   padding-top: 15px;
@@ -87,14 +88,17 @@ header ul li a:hover {
   }
   .close.home-btn {
     background: linear-gradient(145deg, #4604fc, #720494);
-    color: #0b7af8;
     border-radius: 10%;
     padding: 0;
     width: 40px;
     height: 40px;
     line-height: 40px;
   }
+  
   .header.active {
     height: 10vh;
+    margin-right:22% ;
+    width: 100%;
+    
   }
 }

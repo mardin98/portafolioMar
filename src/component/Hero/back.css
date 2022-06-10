@@ -74,3 +74,10 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .cube {
+    display: none;
+  }
+}
+  

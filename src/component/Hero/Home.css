@@ -119,14 +119,14 @@
 }
 
 
-@media (max-width: 670px) {
+@media (max-width: 768px) {
   .hero{
     flex-direction: column;
   }
   .hero .right,
   .hero .left {
     width: 100%;
-    margin-left: 10px;
+    align-content: center;
     text-align: center;
   }
 
@@ -135,13 +135,14 @@
     flex-direction: column-reverse;
   }
   .hero .right_img {
-    
+  
     margin-left: 50px;
     width: 30vh;
     height: 30vh;
   }
 
   .hero .right_img img {
+   
     position: absolute;
    
     margin-left: -100px;
